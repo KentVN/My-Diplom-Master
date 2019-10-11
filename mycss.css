@@ -1,0 +1,188 @@
+*{
+	padding: 0px;
+	margin:0px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: inherit;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+
+/* --------Header-TOP-------- */
+header .container-fluid{
+	border-bottom: 1px solid #eee;
+}
+
+.container{
+	margin:0 auto;
+}
+.headerTop{
+	height: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #666;
+	align-items: center;
+	font-size: 12px;	
+}
+.headerIcon{
+	padding-right: 20px;
+}
+.headerIcon a{
+	color: #666;
+}
+.headerIcon i{
+	padding-right: 4px;
+}
+.headerIcon i:hover{
+	color:rgba(234,177,26,1);
+	transition: 200ms;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.menuTop, .listMenu, .iconMenu p{
+	margin-bottom: 0;
+}
+.menuTop li a{
+	color: #666;
+	padding-right: 10px;
+	transition: 200ms;
+}
+
+.menuTop li a:hover, .listMenu li a:hover, 
+.header .iconMenu i:hover{
+	color:rgba(234,177,26,1);
+	text-decoration: none;
+}
+
+/* --------Header---------- */
+
+header .header{
+	height: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .listMenu{
+	display: flex;
+	align-items: center;
+}
+
+.listMenu li a{
+	padding-right: 20px;
+	color:#666;
+	font-weight: 300;
+	font-size: .9em;
+	transition: 100ms;
+} 
+.header img{
+	width: 80px;
+}
+
+.header .iconMenu i{
+	color:#888;
+	padding-left: 30px;
+	font-size: 1.2em;
+	transition: 200ms;
+}
+
+/* ---------Main-Top----------- */
+
+main .mainTop{
+	background-color: #f7f7f7;
+	height: 3rem;
+}
+
+.mainTop .container-fluid,.container,
+.containerTop{
+	height: 100%;
+}
+.containerTop .containerLeft{
+	background-color:rgba(234,177,26,1);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: .8em;
+	letter-spacing: 2px;
+}
+
+.containerTop .containerRight{
+	color:#666;
+	display: flex;
+	align-items: center;
+}
+
+.containerRight .searchBox{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.searchBox input{
+	border:1px solid rgba(0,0,0,.2);
+	border-radius: 16px;
+	line-height: 30px;
+	padding-left: 16px;
+	font-size: .7em;
+	width: 100%;
+	color: #666;
+	outline: none;
+	box-sizing: content-box;
+}
+
+.searchBox .containerMenu{
+	width: 30%;
+	font-size: .7em;
+	margin:auto 0;
+	position: absolute;
+	right: 18%;
+}
+
+.containerMenu li{
+	padding-left: 10px;
+	position: relative;
+}
+
+.containerMenu:before{
+	content: "";
+	height: 16px;
+	width: 1px;
+	background: rgba(0,0,0,.1);
+	position: absolute;
+	top: 10%;
+	left: 0;
+}
+.searchBox i{
+	position: absolute;
+	right: 4%;
+	background: rgba(234,177,26,1);
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	border-radius: 0 16px 16px 0;
+}
+.subMenu{
+	position: absolute;
+	display: block;
+	top: 24px;
+	left: 0;
+}
+
+.subMenu li{
+	width: 97%;
+	padding: 6px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.1);
+}
+

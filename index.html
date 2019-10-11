@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kents Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/a95bac9285.js" crossorigin="anonymous"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Roboto:100,400&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/header.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container-fluid">
+				<div class=" container">
+					<div class="row headerTop">
+						<div class="leftHeader flex-row">
+							<div class="headerIcon ">
+								<a href="https://www.facebook.com/quan.vo.9212"><i class="fab fa-facebook-square"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="https://www.instagram.com/kentsh113/?hl=vi"><i class="fab fa-instagram"></i></a>
+							</div>
+							<span>Now shipping to Ukraine</span>
+						</div>
+
+						<div class="rightHeader">
+							<ul class="flex-row menuTop">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Coming Soon</a></li>
+							</ul>
+
+
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="container">
+				<div class='row header'>
+					<a href="#"><img src="./photos/Logo.png"></a>
+					<div class="menu">
+						<ul class="listMenu flex-row">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Coming Soon</a></li>
+							<li><a href="#">Pages</a></li>
+							<li><a href="#">Elements</a></li>
+						</ul>
+					</div>
+					<div class="iconMenu">
+						<i class="fas fa-random"></i>
+						<i class="far fa-user"></i>
+						<i class="far fa-heart"></i>
+						<i class="fas fa-shopping-bag"></i>
+					</div>
+				</div>
+				
+			</div>
+		</header>
+
+		<main>
+			<div class="fixMenu">
+				<div class="fixLeft">
+					<ul class="containerList containerFix">
+						
+					</ul>
+				</div>
+				
+			</div>
+			<div class="fixMenuRight">
+				<div class="fixRight">
+					<div class="top">
+						<div class="info1 flex-row">
+							<i class="fas fa-rocket"></i>
+							<div>
+							<span>FREE DELIVERY</span>
+							<p>on all orders</p>
+							</div>
+										
+						</div>
+						<div class="info2 flex-row">
+							<i class="fas fa-headset"></i>
+							<div><span>063-44566-09</span>
+							<p>vothanhquansh@gmail.com</p>
+											
+							</div>
+										
+						</div>
+					</div>
+					<ul class="listMenu flex-column" id="flexNav"></ul>
+					<div class="searchBox">
+						<input type="search" name="search" placeholder="What are you looking for ?">
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+			</div>
+			<div class="mainTop">
+				<div class="container-fluid mainNav">
+					<div class="container">
+						<div class="containerTop row">
+							<div class="col-lg-3 col-md-4 col-sm-4 containerLeft">
+							CATEGORIES
+							<div class="menuBtn" onclick="clicked(this)">
+								<div class="btn1"></div>
+								<div class="btn2"></div>
+								<div class="btn3"></div>
+							</div>
+							</div>
+							<div class="col-lg-9 col-md-8 col-sm-8 containerRight">
+								<div class="searchBox col-md-5">
+									<input type="search" name="search" placeholder="What are you looking for ?">
+									<ul class="containerTopMenu">
+										<li id="selectCategories">ALL CATEGORIES
+											<ul class="subMenu" id="subMenu">
+												<li>Accessories</li>
+												<li>Cameras & Photos</li>
+												<li>Computers</li>
+												<li>Consoles & games</li>
+												<li>Gadgets</li>
+												<li>Mobiles & Tables</li>
+												<li>Tools & storage</li>
+												<li>Tv's & Audio</li>
+											</ul>
+										</li>
+
+									</ul>
+									<i class="fas fa-search"></i>
+									
+								</div>
+
+								<div class="rightInfo col-md-7">
+									<div class="info1">
+										<i class="fas fa-rocket"></i>
+										<div>
+											<span>FREE DELIVERY</span>
+										<p>on all orders</p>
+										</div>
+										
+									</div>
+									<div class="info2">
+										<i class="fas fa-headset"></i>
+										<div><span>063-44566-09</span>
+										<p>vothanhquansh@gmail.com</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								<div class="menuBtn" onclick="clickedRight(this)">
+									<div class="btn1"></div>
+									<div class="btn2"></div>
+									<div class="btn3"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+						<div class="containerMid row">
+							<div class="col-lg-3 col-sm-0 midLeft">
+								<ul class="containerList">
+									<li class="containerMenu"><i class="fas fa-braille"></i><a href="#">Accessories</a>
+									</li>
+									<li class="containerMenu"><i class="fas fa-laptop"></i><a href="#">Computers</a>
+										
+									</li>
+									<li class="containerMenu"><i class="fas fa-camera"></i><a href="#">Cameras & Photos</a>
+									</li>
+									<li class="containerMenu"><i class="fas fa-mobile-alt"></i><a href="#">Mobiles & Tables</a>
+										
+									</li>
+									<li class="containerMenu"><i class="fas fa-tv"></i></i><a href="#">Tv's & Audio</a>
+										
+									</li>
+									<li class="containerMenu"><i class="fas fa-gamepad"></i><a href="#">Consoles & Games</a>
+										
+									</li>
+									<li class="containerMenu"><i class="fas fa-headphones-alt"></i><a href="#">Gadgets</a>
+										
+									</li>
+									<li><i class="fas fa-tools"></i><a href="#">Tools & storage</a></li>
+									<li><i class="far fa-clock"></i><a href="#">Watches</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-9 col-md-12 col-sm-12 midRight">
+								<img src="./photos/iphone11.png">
+								<div class="infoImg">
+									<span>Do even more</span>
+									<h1>Thật Không Thể Tin Được!</h1>
+									<!-- <h1>The world's first infinity phone.</h1> -->
+									<p>With a honeycomb-like shet camera cluster, it's suitable for those who have trypophobia syndrome.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			
+	
+			<div class="container-fluid latesProducts">
+				<div class="container ">
+					<h1>Latest Products</h1>
+					<div class="rowProducts flex-row">
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid brownseByCategories">
+				<div class="container">
+					<div class="top">
+						<h1>Brownse By Categories</h1>
+						<div class="icons">
+							<i class="fas fa-align-justify"></i>
+							<i class="fas fa-laptop"></i>
+							<i class="fas fa-headphones"></i>
+							<i class="fas fa-tv"></i>
+							<i class="fas fa-mobile"></i>
+						</div>
+					</div>
+					<div class="best-seller-products">
+						<div class="row">
+							<div class="leftProducts col-lg-8 col-md-12 col-sm-12">
+								
+							</div>
+							<div class="rightProducts col-lg-4 col-md-6 col-sm-6">
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<section>
+				<div class="container-fluid">
+					<div class="container">
+						<div class="row bannersProduct">
+							<div class="col-lg-4 pl-0">
+								<div class="col-lg-12 banner bannerTablet">
+									<h3>Tables</h3>
+									<h2>Style & performance</h2>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="col-lg-12 banner bannerLaptop">
+									<h3>Vivendo Laptops</h3>
+									<h2>Look great, do more</h2>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="col-lg-12  banner bannerTv">
+									<h2>LifeTyle Tvs</h2>
+									<h3>innovative design add style to any living space</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="row hotProducts">
+							<div class="col-lg-4 pl-0">
+								<div class="col-lg-12 leftProducts">lqdjkwqd</div>
+							</div>
+							<div class="col-lg-8">
+								<div class="col-lg-12 rightProducts">;lfmkfkqe</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	
+	
+	
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/myjs.js"></script>
+</body>
+</html>

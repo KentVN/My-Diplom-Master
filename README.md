@@ -1,0 +1,1 @@
+This is my Diplom master ! Shopping site ! created with HTML, CSS, JS basic and Bootstrap ! 

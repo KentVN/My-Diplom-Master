@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin:0px;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	font-weight: inherit;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+ @media (min-width: 1200px){
+.container {
+    max-width: 1440px;
+}
+} 
+
+/* --------Header-TOP-------- */
+header .container-fluid{
+	border-bottom: 1px solid #eee;
+}
+
+.container{
+	margin:0 auto;
+}
+.headerTop{
+	height: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #666;
+	align-items: center;
+	font-size: 12px;	
+}
+.headerIcon{
+	padding-right: 20px;
+}
+.headerIcon a{
+	color: #666;
+}
+.headerIcon i{
+	padding-right: 4px;
+}
+.headerIcon i:hover{
+	color:rgba(234,177,26,1);
+	transition: 200ms;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+.menuTop, .listMenu, .iconMenu p{
+	margin-bottom: 0;
+}
+.menuTop li a{
+	color: #666;
+	padding-right: 10px;
+	transition: 200ms;
+}
+
+.menuTop li a:hover, .listMenu li a:hover, 
+.header .iconMenu i:hover{
+	color:rgba(234,177,26,1);
+	text-decoration: none;
+}
+
+/* --------Header---------- */
+
+header .header{
+	height: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .listMenu{
+	display: flex;
+	align-items: center;
+}
+
+.listMenu li a{
+	padding-right: 20px;
+	color:#666;
+	font-weight: 300;
+	font-size: .9em;
+	transition: 100ms;
+} 
+.header img{
+	width: 80px;
+}
+
+.header .iconMenu i{
+	color:#888;
+	padding-left: 30px;
+	font-size: 1.2em;
+	transition: 200ms;
+}
+
+
