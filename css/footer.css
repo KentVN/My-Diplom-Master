@@ -1,0 +1,41 @@
+
+
+/*------------------------FOOTER-----------------*/
+
+
+footer{
+	
+}
+
+
+.footerTop{
+	height: 15vh;
+	display: flex;
+	margin:50px 0;
+}
+
+.leftTopFooter{
+	background-color:  lightgreen;
+	width: 55%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.rightTopFooter{
+	background-color:  lightblue;
+	width: 45%;
+	height: 100%;
+}
+
+.leftTopFooter .infoBigBox{
+	width: 76%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.leftTopFooter img{
+	width: 40px;
+}

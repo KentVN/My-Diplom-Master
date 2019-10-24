@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./css/header.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 	
 </head>
 <body>
@@ -244,19 +248,19 @@
 				<div class="container-fluid">
 					<div class="container">
 						<div class="row bannersProduct">
-							<div class="col-lg-4 pl-0">
-								<div class="col-lg-12 banner bannerTablet">
+							<div class="col-lg-4 col-md-6 col-sm-12 pl-0">
+								<div class="col-lg-12  banner bannerTablet">
 									<h3>Tables</h3>
 									<h2>Style & performance</h2>
 								</div>
 							</div>
-							<div class="col-lg-4">
-								<div class="col-lg-12 banner bannerLaptop">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="col-lg-12  banner bannerLaptop">
 									<h3>Vivendo Laptops</h3>
 									<h2>Look great, do more</h2>
 								</div>
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="col-lg-12  banner bannerTv">
 									<h2>LifeTyle Tvs</h2>
 									<h3>innovative design add style to any living space</h3>
@@ -266,16 +270,175 @@
 
 						<div class="row hotProducts">
 							<div class="col-lg-4 pl-0">
-								<div class="col-lg-12 leftProducts">lqdjkwqd</div>
+								<div class="col-lg-12 leftProducts"><h1>Deal Of The Day</h1>
+									<div class="boxProductLeft"></div>
+								</div>
 							</div>
 							<div class="col-lg-8">
-								<div class="col-lg-12 rightProducts">;lfmkfkqe</div>
+								<div class="col-lg-12 pl-0 rightProducts">
+									<div class="row head">
+										<div class="col-lg-3 pl-0"><a href="#">Lates Products</a></div>
+										<div class="col-lg-2 pl-0"><a href="#">Watches</a></div>
+										<div class="col-lg-3 pl-0"><a href="#">Computers</a></div>
+									</div>
+
+									<div class="row ml-1">
+										
+										<div class="boxProducts">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row bannerIntroduct">
+							<div class="banner smartSpeaker">
+								<img src="../photos/banners/big-banner1.png">
+								<div class="inforBanner">
+								<h2>Smart speaker</h2>
+								<p>Moved to. Shall, for green said created heaven also gathering Have. Sighs light moving to unto, moving. Kind set the.</p>
+								
+								</div>
+								<button class="button">SHOP NOW</button>
+							</div>
+							<div class="banner stylePerformance">
+								<img src="../photos/banners/big-banner2.png">
+								<div class="inforBanner">
+									<h2>Style & performance</h2>
+									<p>Cardigan lyft ennui listicle bespoke, pitchfork cloud bread subway tile disrupt quinoa gluten-free slow-carb.</p>
+									
+								</div>
+									<button class="button">SHOP NOW</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<section class="productsRecomment">
+				<div class="container-fluid">
+					<div class="container">
+						<div class="boxColumnsProducts">
+							<div class="columnProducts">
+								<div class="titleColumn">
+									
+										<h2>Latest</h2>
+										<div class="arrowsBtn">
+											<div class="arrowLeft" onclick="arrowLeft(this)"><</div>
+											<div class="arrowRight">></div>
+										</div>
+									
+								</div>
+								<div class="boxLatest boxProducts recommentsBox "></div>
+							</div>
+
+							<div class="columnProducts">
+								<div class="titleColumn">
+									
+										<h2>Trending</h2>
+										<div class="arrowsBtn">
+											<div class="arrowLeft" onclick = "arrowLeft(this)"><</div>
+											<div class="arrowRight" onclick = "arrowRight(this)">></div>
+										</div>
+									
+								</div>
+								<div class="boxProducts boxTrending recommentsBox"></div>
+							</div>
+
+							<div class="columnProducts">
+								<div class="titleColumn">
+									
+										<h2>Top Selling</h2>
+										<div class="arrowsBtn">
+											<div class="arrowLeft" onclick = "arrowLeft(this)"><</div>
+											<div class="arrowRight" onclick = "arrowRight(this)">></div>
+										</div>
+									
+								</div>
+								<div class="boxProducts boxTopSelling recommentsBox"></div>
+							</div>
+
+							<div class="columnProducts">
+								<div class="titleColumn">
+									
+										<h2>Popular</h2>
+										<div class="arrowsBtn">
+											<div class="arrowLeft" onclick = "arrowLeft(this)"><</div>
+											<div class="arrowRight"onclick = "arrowRight(this)">></div>
+										</div>
+									
+								</div>
+								<div class="boxProducts boxPopular recommentsBox"></div> <!--  Đoạn này t dùng string template bên js để cho products vào  -->
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="container">
+				<div class="brandBanners">
+					<a href="#">
+						<img src="./photos/banners/brand-banner1.png">
+					</a>
+					<a href="#">
+						<img src="./photos/banners/brand-banner2.png">
+					</a>
+					<a href="#">
+						<img src="./photos/banners/brand-banner3.png">
+					</a>
+					<a href="#">
+						<img src="./photos/banners/brand-banner4.png">
+					</a>
+					<a href="#">
+						<img src="./photos/banners/brand-banner5.png">
+					</a>
+					
+				
+					
+				</div>
+			</section>
 		</main>
+
+
+		<footer>
+			
+				<div class="footerTop">
+					<div class="leftTopFooter">
+						<div class="infoBigBox">
+							<div class="infoBox">
+							<img src="https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/skype.svg">
+							<div class="info">
+								<span>skype</span>
+								<p>vothanhquansh</p>
+							</div>
+							
+						</div>
+						<div class="infoBox">
+							<img src="https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/phone-call.svg">
+							<div class="info">
+								<span>skype</span>
+								<p>vothanhquansh</p>
+							</div>
+
+						</div>
+						<div class="infoBox">
+							<img src="https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/mail.svg">
+							<div class="info">
+								<span>skype</span>
+								<p>vothanhquansh</p>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+					<div class="rightTopFooter">
+						dwdwd
+					</div>
+				</div>
+			
+		</footer>
 	</div>
 	
 	
