@@ -771,6 +771,7 @@ function btnClick(){
 
 
 
+
 containerMenu();
 showLatest();
 showBestProducts();
@@ -782,3 +783,39 @@ writeProducts(trendingList,"boxTrending");
 writeProducts(topSellingList, "boxTopSelling");
 writeProducts(popularList, "boxPopular");
 btnClick();
+
+
+
+
+let slidesBox = document.querySelector('.rowProducts');
+let slidesProducts = slidesBox.querySelectorAll('.boxProduct');
+let counter = 1;
+const size = slidesProducts[0].clientWidth;
+let slideWidth = slidesBox.style.width = size * ( slidesProducts.length - 1 );
+let bodyWidth = document.body.clientWidth;
+
+	if(bodyWidth <= 425){
+			setInterval(function(){
+			slidesBox.style.transform = `translateX(${-size * counter}px)`;
+			console.log(size*counter)
+			counter++;
+
+			if( counter === slidesProducts.length){
+				counter = 0;
+			}
+			}, 5000);
+		}
+
+/*window.addEventListener("resize",function(event){
+	bodyWidth = document.body.clientWidth;
+	console.log(bodyWidth)
+})*/
+
+
+
+
+
+/*let x = window.matchMedia("(max-width: 426px)");
+myFunc(x);
+x.addListener(myFunc);*/
+

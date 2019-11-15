@@ -1,0 +1,349 @@
+doctype html
+head
+  title Kents Shop
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  script(src='https://kit.fontawesome.com/a95bac9285.js', crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Poppins|Roboto:100,400&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+  link(rel='stylesheet', type='text/css', href='../css/header.css')
+  link(rel='stylesheet', type='text/css', href='../css/main.css')
+  link(rel='stylesheet', type='text/css', href='../css/footer.css')
+  link(rel='stylesheet', type='text/css', href='../css/responsive.css')
+.wrapper
+  header
+    .container-fluid
+      .container
+        .row.headerTop
+          .leftHeader.flex-row
+            .headerIcon
+              a(href='https://www.facebook.com/quan.vo.9212')
+                i.fab.fa-facebook-square
+              a(href='#')
+                i.fab.fa-twitter
+              a(href='https://www.instagram.com/kentsh113/?hl=vi')
+                i.fab.fa-instagram
+            span Now shipping to Ukraine
+          .rightHeader
+            ul.flex-row.menuTop
+              li
+                a(href='#') Home
+              li
+                a(href='#') Blog
+              li
+                a(href='#') Coming Soon
+    .container
+      .row.header
+        a(href='#')
+          img(src='./photos/Logo.png')
+        .menu
+          ul.listMenu.flex-row
+            li
+              a(href='#') Home
+            li
+              a(href='#') Shop
+            li
+              a(href='#') About Us
+            li
+              a(href='#') Contact Us
+            li
+              a(href='#') Coming Soon
+            li
+              a(href='#') Pages
+            li
+              a(href='#') Elements
+        .iconMenu
+          i.fas.fa-random
+          i.far.fa-user
+          i.far.fa-heart
+          i.fas.fa-shopping-bag
+  main
+    .fixMenu
+      .fixLeft
+        ul.containerList.containerFix
+    .fixMenuRight
+      .fixRight
+        .top
+          .info1.flex-row
+            i.fas.fa-rocket
+            div
+              span FREE DELIVERY
+              p on all orders
+          .info2.flex-row
+            i.fas.fa-headset
+            div
+              span 063-44566-09
+              p vothanhquansh@gmail.com
+        ul#flexNav.listMenu.flex-column
+        .searchBox
+          input(type='search', name='search', placeholder='What are you looking for ?')
+          i.fas.fa-search
+    .mainTop
+      .container-fluid.mainNav
+        .container
+          .containerTop.row
+            .col-lg-3.col-md-4.col-sm-4.col-8.containerLeft
+              | CATEGORIES
+              .menuBtn(onclick='clicked(this)')
+                .btn1
+                .btn2
+                .btn3
+            .col-lg-9.col-md-8.col-sm-8.col-4.containerRight
+              .searchBox.col-md-5
+                input(type='search', name='search', placeholder='What are you looking for ?')
+                ul.containerTopMenu
+                  li#selectCategories
+                    | ALL CATEGORIES
+                    ul#subMenu.subMenu
+                      li Accessories
+                      li Cameras &amp; Photos
+                      li Computers
+                      li Consoles &amp; games
+                      li Gadgets
+                      li Mobiles &amp; Tables
+                      li Tools &amp; storage
+                      li Tv&apos;s &amp; Audio
+                i.fas.fa-search
+              .rightInfo.col-md-7
+                .info1
+                  i.fas.fa-rocket
+                  div
+                    span FREE DELIVERY
+                    p on all orders
+                .info2
+                  i.fas.fa-headset
+                  div
+                    span 063-44566-09
+                    p vothanhquansh@gmail.com
+              .menuBtn(onclick='clickedRight(this)')
+                .btn1
+                .btn2
+                .btn3
+      .container
+        .containerMid.row
+          .col-lg-3.col-sm-0.midLeft
+            ul.containerList
+              li.containerMenu
+                i.fas.fa-braille
+                a(href='#') Accessories
+              li.containerMenu
+                i.fas.fa-laptop
+                a(href='#') Computers
+              li.containerMenu
+                i.fas.fa-camera
+                a(href='#') Cameras &amp; Photos
+              li.containerMenu
+                i.fas.fa-mobile-alt
+                a(href='#') Mobiles &amp; Tables
+              li.containerMenu
+                i.fas.fa-tv
+                a(href='#') Tv&apos;s &amp; Audio
+              li.containerMenu
+                i.fas.fa-gamepad
+                a(href='#') Consoles &amp; Games
+              li.containerMenu
+                i.fas.fa-headphones-alt
+                a(href='#') Gadgets
+              li
+                i.fas.fa-tools
+                a(href='#') Tools &amp; storage
+              li
+                i.far.fa-clock
+                a(href='#') Watches
+          .col-lg-9.col-md-12.col-sm-12.midRight
+            img(src='./photos/iphone11.png')
+            .infoImg
+              span Do even more
+              h1 Th&#x1EAD;t Kh&ocirc;ng Th&#x1EC3; Tin &Dstrok;&#x1B0;&#x1EE3;c!
+              // <h1>The world's first infinity phone.</h1>
+              p
+                | With a honeycomb-like shet camera cluster, it&apos;s suitable for those who have trypophobia syndrome.
+    .container-fluid.latesProducts
+      .container
+        h1 Latest Products
+        .boxSlider
+          .rowProducts.flex-row
+    .container-fluid.brownseByCategories
+      .container
+        .top
+          h1 Brownse By Categories
+          .icons
+            i.fas.fa-align-justify
+            i.fas.fa-laptop
+            i.fas.fa-headphones
+            i.fas.fa-tv
+            i.fas.fa-mobile
+        .best-seller-products
+          .row
+            .leftProducts.col-lg-8.col-md-12.col-sm-12
+            .rightProducts.col-lg-4.col-md-6.col-sm-6
+    section
+      .container-fluid
+        .container
+          .row.bannersProduct
+            .col-lg-4.col-md-6.col-sm-12.pl-0
+              .col-lg-12.banner.bannerTablet
+                h3 Tables
+                h2 Style &amp; performance
+            .col-lg-4.col-md-6.col-sm-12
+              .col-lg-12.banner.bannerLaptop
+                h3 Vivendo Laptops
+                h2 Look great, do more
+            .col-lg-4.col-md-6.col-sm-12
+              .col-lg-12.banner.bannerTv
+                h2 LifeTyle Tvs
+                h3 innovative design add style to any living space
+          .row.hotProducts
+            .col-lg-4.pl-0
+              .col-lg-12.leftProducts
+                h1 Deal Of The Day
+                .boxProductLeft
+            .col-lg-8
+              .col-lg-12.pl-0.rightProducts
+                .row.head
+                  .col-lg-3.col-md-3.col-sm-3.col-4.pl-0
+                    a(href='#') Lates Products
+                  .col-lg-2.col-md-3.col-sm-3.col-4.pl-0
+                    a(href='#') Watches
+                  .col-lg-3.col-md-3.col-sm-3.col-4.pl-0
+                    a(href='#') Computers
+                .row.ml-1
+                  .boxProducts
+          .row.bannerIntroduct
+            .banner.smartSpeaker
+              img(src='../photos/banners/big-banner1.png')
+              .inforBanner
+                h2 Smart speaker
+                p
+                  | Moved to. Shall, for green said created heaven also gathering Have. Sighs light moving to unto, moving. Kind set the.
+              button.button SHOP NOW
+            .banner.stylePerformance
+              img(src='../photos/banners/big-banner2.png')
+              .inforBanner
+                h2 Style &amp; performance
+                p
+                  | Cardigan lyft ennui listicle bespoke, pitchfork cloud bread subway tile disrupt quinoa gluten-free slow-carb.
+              button.button SHOP NOW
+    section.productsRecomment
+      .container-fluid
+        .container
+          .boxColumnsProducts
+            .columnProducts
+              .titleColumn
+                h2 Latest
+                .arrowsBtn
+                  .arrowLeft(onclick='arrowLeft(this)') &lt;
+                  .arrowRight &gt;
+              .boxLatest.boxProducts.recommentsBox
+            .columnProducts
+              .titleColumn
+                h2 Trending
+                .arrowsBtn
+                  .arrowLeft(onclick='arrowLeft(this)') &lt;
+                  .arrowRight(onclick='arrowRight(this)') &gt;
+              .boxProducts.boxTrending.recommentsBox
+            .columnProducts
+              .titleColumn
+                h2 Top Selling
+                .arrowsBtn
+                  .arrowLeft(onclick='arrowLeft(this)') &lt;
+                  .arrowRight(onclick='arrowRight(this)') &gt;
+              .boxProducts.boxTopSelling.recommentsBox
+            .columnProducts
+              .titleColumn
+                h2 Popular
+                .arrowsBtn
+                  .arrowLeft(onclick='arrowLeft(this)') &lt;
+                  .arrowRight(onclick='arrowRight(this)') &gt;
+              .boxProducts.boxPopular.recommentsBox
+              // Đoạn này t dùng string template bên js để cho products vào
+    section.container.boxBrandBanner
+      .brandBanners
+        a(href='#')
+          img(src='./photos/banners/brand-banner1.png')
+        a(href='#')
+          img(src='./photos/banners/brand-banner2.png')
+        a(href='#')
+          img(src='./photos/banners/brand-banner3.png')
+        a(href='#')
+          img(src='./photos/banners/brand-banner4.png')
+        a(href='#')
+          img(src='./photos/banners/brand-banner5.png')
+  footer
+    .footerTop
+      .leftTopFooter
+        .infoBigBox
+          .infoBox.flex-row
+            img(src='https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/skype.svg')
+            .info
+              span Skype
+              p vothanhquansh
+          .infoBox.flex-row
+            img(src='https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/phone-call.svg')
+            .info
+              span Info Line
+              p 063.44.5.66.09
+          .infoBox.flex-row
+            img(src='https://elab.scdn8.secure.raxcdn.com/demo-8/wp-content/themes/elab/assets/images/iconboxes/mail.svg')
+            .info
+              span Email
+              p vothanhquansh@gmail.com
+      .rightTopFooter.flex-row
+        .searchBox
+          input(type='text', name='search', placeholder='Enter your E-mail to subcribe...')
+          button SUBCRIBE
+    .footerMiddle
+      .midFooter.flex-row.row
+        .accountMenu.col-lg-2.col-md-4.col-sm-4
+          h5 My account
+          ul.listFooter
+            li
+              a(href='#') Shop
+            li
+              a(href='#') Cart
+            li
+              a(href='#') About us
+            li
+              a(href='#') Contact us
+            li
+              a(href='#') Comming Soon
+        .servicesMenu.col-lg-2.col-md-4.col-sm-4
+          h5 Customer Services
+          ul.listFooter
+            li
+              a(href='#') Home
+            li
+              a(href='#') Blog
+            li
+              a(href='#') Wishlist
+            li
+              a(href='#') Compare
+            li
+              a(href='#') Portfolio
+        .Qcontact.flex-column.col-lg-3.col-md-4.col-sm-4
+          h5 Quick Contact
+          input(type='email', name='email', placeholder='Enter your e-mail')
+          textarea(type='text', name='comment', placeholder='Write your review')
+          button SEND MESSAGE
+        .imgFooter.col-lg-3.col-md-6.col-sm-6
+          a(href='#')
+            img(src='./photos/banners/bannerF.jpg')
+        .contact.col-lg-2.col-md-6.col-sm-6
+          h5 Contact
+          ul
+            li
+              i.fas.fa-map-marker-alt
+              | 33 Valentina 26
+            li
+              i.fas.fa-phone-alt
+              | 063-44-5-66-09
+            li
+              i.fas.fa-phone-square-alt
+              | 063-44-5-66-09
+            li
+              i.far.fa-envelope
+              a(href='#') vothanhquansh@gmail.com
+script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl', crossorigin='anonymous')
+script(type='text/javascript', src='./js/myjs.js')

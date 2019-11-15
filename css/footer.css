@@ -4,7 +4,7 @@
 
 
 footer{
-	
+	margin-bottom: 50px;
 }
 
 
@@ -15,7 +15,7 @@ footer{
 }
 
 .leftTopFooter{
-	background-color:  lightgreen;
+	background-color: #3b4466;
 	width: 55%;
 	height: 100%;
 	display: flex;
@@ -24,7 +24,7 @@ footer{
 }
 
 .rightTopFooter{
-	background-color:  lightblue;
+	background-color:  rgba(234,177,26,1);
 	width: 45%;
 	height: 100%;
 }
@@ -35,7 +35,153 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	color: #fff;
 }
 .leftTopFooter img{
 	width: 40px;
+	margin-right: 20px;
+}
+.infoBigBox .infoBox span{
+	font-weight: 600;
+}
+
+.rightTopFooter .searchBox{
+	width: 70%;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+}
+.rightTopFooter .searchBox input{
+	width: 70%;
+	margin-right: 20px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: .9em;
+}
+
+.rightTopFooter .searchBox button{
+	height: 40px;
+	width: 30%;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	font-size: .9em;
+	letter-spacing: 1px;
+	outline: none;
+	cursor: pointer;
+	transition: 150ms ease;
+}
+
+.rightTopFooter .searchBox button:hover{
+	background-color: rgba(41,46,56,1);
+	border-color: rgba(41,46,56,1);
+}
+
+
+.footerMiddle{
+	width: 72%;
+	margin: 0 auto;
+}
+
+.midFooter{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.midFooter h5{
+	font-weight: 600;
+	font-size: 1.1em;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.midFooter h5:before{
+	content: "";
+	width: 20%;
+	height: 2px;
+	background-color: rgba(234,177,26,1);
+	position: absolute;
+	top: 120%;
+}
+
+.Qcontact h5:before{
+	display: none;
+}
+.listFooter li{
+	margin-left: 20px;
+	padding:6px 0;
+}
+.listFooter li a{
+	position: relative;
+	color: rgba(102,102,102,1);
+	font-size: .9em;
+}
+
+.listFooter li a:before{
+	content: "";
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	border-radius: 10px;
+	transform: translateY(-50%);
+	top: 50%;
+	left: -16px;
+	background-color: rgba(234,177,26,1);
+}
+
+
+.Qcontact input{
+	border: 1px solid rgba(0,0,0,.2);
+	margin-bottom: 8px;
+	padding: 8px 0 8px 10px;
+}
+
+.Qcontact textarea{
+	padding: 8px 0 8px 10px;
+	height: 80px;
+	margin-bottom: 12px;
+}
+
+.Qcontact button{
+	width: 50%;
+	height: 40px;
+	color: #fff;
+	border:none;
+	font-size: .8em;
+	border-radius: 20px;
+	background-color: rgba(234,177,26,1);
+	transition: 50ms ease;
+}
+
+.Qcontact button:hover{
+	background-color: #212529;
+}
+
+.imgFooter img{
+	width: 100%;
+}
+.contact li{
+	position: relative;
+	font-size: .8em;
+	margin-bottom: 8px;
+}
+.contact{
+
+}
+.contact li i{
+	margin-right: 8px;
+	width: 30px;
+	height: 30px;
+	background-color: rgba(234,177,26,1);
+	color: #fff;
+	border-radius: 6px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.contact li a:last-child{
+	font-size: .8em;
+	color: #555;
 }
