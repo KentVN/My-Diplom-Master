@@ -432,4 +432,39 @@
 	.rightTopFooter .searchBox{
 		margin-left: 0;
 	}
+
+	.fixMenu .fixLeft{
+		width: 52vw !important;
+	}
+
+	.fixMenuRight .fixRight{
+		width: 50vw !important;
+		font-size: .6em;
+	}
+}
+
+@media (max-width: 376px){
+	.fixMenu .fixLeft{
+		width: 54vw !important;
+	}
+	.fixLeft .containerList li a {
+		 font-size: .8rem;
+	}
+
+	.fixMenuRight .fixRight{
+		width: 50vw !important;
+		font-size: .5em;
+	}
+	#flexNav li {
+		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 320px){
+	.fixMenu .fixLeft{
+		font-size: .6em;
+	}
+	.fixLeft .containerList li a {
+		 font-size: .7rem;
+	}
 }

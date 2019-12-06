@@ -1,0 +1,100 @@
+[
+  {
+    "menu": "Accessories",
+    "menuList": [
+      "All computers & Accessories",
+      "Power Protection",
+      "Bags",
+      "Cables",
+      "Vehicle Electronics",
+      "Audio & Video Accessories",
+      "Battleries",
+      "Chargers & Accessories"
+    ],
+    "image": "./photos/banner-accessories.jpg"
+  },
+  {
+    "menu": "Computers",
+    "menuList": [
+      "All computers & Accessories",
+      "Laptops",
+      "Computer Cases",
+      "Servers",
+      "Computer Components",
+      "Desktops",
+      "Mouses",
+      "Keyboards"
+    ],
+    "image": "./photos/banner-computer.jpg"
+  },
+  {
+    "menu": "Cameras & Photos",
+    "menuList": [
+      "All Cameras & Photos",
+      "Action Video Cameras",
+      "Camera Cases",
+      "DSLR Cameras",
+      "Microphones",
+      "Lenses",
+      "Digital Cameras",
+      "Reflectors"
+    ],
+    "image": "./photos/banner-camera.jpg"
+  },
+  {
+    "menu": "Mobiles & Tables",
+    "menuList": [
+      "All Mobiles & Tables",
+      "Micro SD Memory Cards",
+      "Smartphones",
+      "Landline Phones",
+      "Tables",
+      "Cell Phone Chargers",
+      "Cases & Covers",
+      "Selfie Sticks"
+    ],
+    "image": "./photos/banner-mobile.jpg"
+  },
+  {
+    "menu": "Tv's & Audio",
+    "menuList": [
+      "All Tv's & Audio",
+      "DVD Players & Recorders",
+      "LED & LCD TVs",
+      "Media Players",
+      "OLED TV's",
+      "Projection Screen",
+      "Remote Controls",
+      "Speakers"
+    ],
+    "image": "./photos/banner-TV.jpg"
+  },
+  {
+    "menu": "Consoles & Games",
+    "menuList": [
+      "All Game consoles",
+      "Virtual Reallity",
+      "Joysticks",
+      "Game Controllers",
+      "Video Game",
+      "Racing Wheels",
+      "Digital Games & DLC",
+      "Gamepads"
+    ],
+    "image": "./photos/banner-console.jpg"
+  },
+  {
+    "menu": "Gadgets",
+    "menuList": [
+      "All Gadgets",
+      "Smart Home Appliances",
+      "Smart Remote Controls",
+      "Watches",
+      "Alarm & Sensor",
+      "MP3 Players",
+      "Wearable Devices",
+      "Headphone"
+    ],
+    "image": "./photos/banner-gadgets.jpg"
+  }
+]

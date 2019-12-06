@@ -797,7 +797,7 @@ let bodyWidth = document.body.clientWidth;
 	if(bodyWidth <= 425){
 			setInterval(function(){
 			slidesBox.style.transform = `translateX(${-size * counter}px)`;
-			console.log(size*counter)
+			/*console.log(size*counter)*/
 			counter++;
 
 			if( counter === slidesProducts.length){
